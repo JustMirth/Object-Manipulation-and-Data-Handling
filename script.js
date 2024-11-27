@@ -23,3 +23,8 @@ console.log(student === studentObject);
 const { name, courses } = student;
 console.log(`Name: ${name}`);
 console.log((`Courses: ${courses}`));
+
+const scores = [95, 100, 100, 90, 95, 85];
+const [firstScore, secondScore] = scores;
+console.log(`First Score: ${firstScore}`);
+console.log(`Second Score: ${secondScore}`);
