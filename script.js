@@ -18,3 +18,8 @@ console.log(studentJSON);
 const studentObject = JSON.parse(studentJSON);
 console.log(studentObject);
 console.log(student === studentObject);
+
+//Part 3
+const { name, courses } = student;
+console.log(`Name: ${name}`);
+console.log((`Courses: ${courses}`));
