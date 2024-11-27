@@ -1,0 +1,10 @@
+body{
+background-color: wheat;
+text-align: center;
+}
+h1{
+font-size: 100px;
+padding-top: 300px;
+padding-bottom: 300px;
+text-decoration: underline wavy;
+}
