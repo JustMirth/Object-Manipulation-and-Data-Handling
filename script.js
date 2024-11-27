@@ -32,3 +32,7 @@ console.log(`Second Score: ${secondScore}`);
 //Part 4
 const studentClone = {...student, graduationYear: 2026};
 console.log(studentClone);
+
+const newCourses = ["Advanced Front-End Programming", "Object-Oriented Programming"];
+const allCourses = [...student.courses, ...newCourses];
+console.log(`All Courses: ${allCourses}`);
