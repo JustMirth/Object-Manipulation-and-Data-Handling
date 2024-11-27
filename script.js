@@ -28,3 +28,7 @@ const scores = [95, 100, 100, 90, 95, 85];
 const [firstScore, secondScore] = scores;
 console.log(`First Score: ${firstScore}`);
 console.log(`Second Score: ${secondScore}`);
+
+//Part 4
+const studentClone = {...student, graduationYear: 2026};
+console.log(studentClone);
