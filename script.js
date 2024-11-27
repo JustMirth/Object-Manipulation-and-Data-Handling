@@ -1,3 +1,4 @@
+//Part 1
 const student = {
     name: "Mitchell Callaghan",
     age: 24,
@@ -10,3 +11,7 @@ const student = {
 
 console.log(`Name: ${student.name} and Age: ${student.age}`);
 console.log(student.displayInfo());
+
+//Part 2
+const studentJSON = JSON.stringify(student);
+console.log(studentJSON);
