@@ -44,8 +44,13 @@ const allCourses = [...student.courses, ...newCourses];
 console.log(`All Courses: ${allCourses}`);
 
 /*Part 5: Done in Student Object */
-console.log(student.courses);
-console.log(student.courses.length);
+console.log(`Courses: ${student.courses}`);
+console.log(`Courses Length: ${student.courses.length}`);
 student.addCourse("Object-Oriented Programming");
-console.log(student.courses);
-console.log(student.courses.length);
+console.log(`Courses: ${student.courses}`);
+console.log(`Courses Length: ${student.courses.length}`);
+
+//Bonus
+const totalScore = scores.reduce((subtotal, score) => subtotal + score, 0);
+const avgScore = totalScore / scores.length;
+console.log(`Average Score: = ${avgScore}`);
