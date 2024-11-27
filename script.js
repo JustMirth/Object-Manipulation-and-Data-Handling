@@ -6,6 +6,12 @@ const student = {
     courses: ["Operating Systems", "Fundamentals of JavaScript", "Web Programming and Design", "Database Concepts and Design", "Algorithms and Problem Solving", "Technical Reading and Writing Skills"],
     displayInfo: function() {
         return `Name: ${this.name}, Age: ${this.age}, Enrolled: ${this.enrolled}, Courses: ${this.courses}`;
+    },
+    addCourse: function(newCourse) {
+        this.courses.push(newCourse);
+    },
+    totalCourses: function() {
+        return this.courses.length;
     }
 };
 
@@ -36,3 +42,10 @@ console.log(studentClone);
 const newCourses = ["Advanced Front-End Programming", "Object-Oriented Programming"];
 const allCourses = [...student.courses, ...newCourses];
 console.log(`All Courses: ${allCourses}`);
+
+/*Part 5: Done in Student Object */
+console.log(student.courses);
+console.log(student.courses.length);
+student.addCourse("Object-Oriented Programming");
+console.log(student.courses);
+console.log(student.courses.length);
